@@ -1,0 +1,570 @@
+<mxfile host="Electron" agent="Mozilla/5.0" pages="8">
+  <diagram id="page2" name="Controlar acceso según rol">
+    <mxGraphModel dx="2516" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" value="Sistema de Gestión Escolar Autenticacion" vertex="1">
+          <mxGeometry height="650" width="790" x="180" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a2_0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Usuario" vertex="1">
+          <mxGeometry height="80" width="55" x="-40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-01 — Iniciar sesión" vertex="1">
+          <mxGeometry height="55" width="350" x="240" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_1_0" edge="1" parent="1" source="a2_0" style="endArrow=none;html=1;" target="c2_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-02 — Cerrar sesión" vertex="1">
+          <mxGeometry height="55" width="350" x="530" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_2_0" edge="1" parent="1" source="a2_0" style="endArrow=none;html=1;" target="c2_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-03 — Recuperar contraseña" vertex="1">
+          <mxGeometry height="55" width="350" x="500" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_3_0" edge="1" parent="1" source="a2_0" style="endArrow=none;html=1;" target="c2_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-04 — Cambiar contraseña" vertex="1">
+          <mxGeometry height="55" width="350" x="420" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_4_0" edge="1" parent="1" source="a2_0" style="endArrow=none;html=1;" target="c2_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-05 — Consultar perfil" vertex="1">
+          <mxGeometry height="55" width="350" x="270" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_5_0" edge="1" parent="1" source="a2_0" style="endArrow=none;html=1;" target="c2_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-06 — Controlar acceso según rol" vertex="1">
+          <mxGeometry height="55" width="350" x="340" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_6_0" edge="1" parent="1" source="a2_0" style="endArrow=none;html=1;" target="c2_6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page3" name="Activar usuario">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" value="Sistema de Gestión Escolar CRUD usuarios&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="765" width="1050" x="170" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="a3_0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Super Admin" vertex="1">
+          <mxGeometry height="80" width="55" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="a3_1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="55" x="1290" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-07 — Crear usuario administrativo" vertex="1">
+          <mxGeometry height="55" width="350" x="250" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_7_0" edge="1" parent="1" source="a3_0" style="endArrow=none;html=1;" target="c3_7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-08 — Modificar usuario administrativo" vertex="1">
+          <mxGeometry height="55" width="350" x="530" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_8_0" edge="1" parent="1" source="a3_0" style="endArrow=none;html=1;" target="c3_8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-09 — Desactivar usuario administrativo" vertex="1">
+          <mxGeometry height="55" width="350" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_9_0" edge="1" parent="1" source="a3_0" style="endArrow=none;html=1;" target="c3_9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-10 — Gestionar usuarios operativos" vertex="1">
+          <mxGeometry height="55" width="350" x="360" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_10_0" edge="1" parent="1" source="a3_1" style="endArrow=none;html=1;" target="c3_10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-11 — Consultar usuarios" vertex="1">
+          <mxGeometry height="55" width="350" x="470" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_11_0" edge="1" parent="1" source="a3_0" style="endArrow=none;html=1;" target="c3_11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_11_1" edge="1" parent="1" source="a3_1" style="endArrow=none;html=1;" target="c3_11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-12 — Activar usuario" vertex="1">
+          <mxGeometry height="55" width="350" x="430" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_12_0" edge="1" parent="1" source="a3_0" style="endArrow=none;html=1;" target="c3_12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_12_1" edge="1" parent="1" source="a3_1" style="endArrow=none;html=1;" target="c3_12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page4" name="Gestiones Admins">
+    <mxGraphModel dx="1347" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" value="Sistema de Gestión Escolar Gestiones Academica&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="765" width="1010" x="170" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="a4_0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Super Admin" vertex="1">
+          <mxGeometry height="80" width="55" x="40" y="216.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a4_1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="55" x="40" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-13 — Gestionar ciclos escolares" vertex="1">
+          <mxGeometry height="55" width="350" x="240" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_13_0" edge="1" parent="1" source="a4_0" style="endArrow=none;html=1;" target="c4_13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-14 — Gestionar niveles educativos" vertex="1">
+          <mxGeometry height="55" width="350" x="220" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_14_0" edge="1" parent="1" source="a4_0" style="endArrow=none;html=1;" target="c4_14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_14_1" edge="1" parent="1" source="a4_1" style="endArrow=none;html=1;" target="c4_14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-15 — Gestionar carreras" vertex="1">
+          <mxGeometry height="55" width="350" x="630" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_15_0" edge="1" parent="1" source="a4_1" style="endArrow=none;html=1;" target="c4_15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-16 — Gestionar grados" vertex="1">
+          <mxGeometry height="55" width="350" x="650" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_16_0" edge="1" parent="1" source="a4_1" style="endArrow=none;html=1;" target="c4_16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-17 — Gestionar secciones" vertex="1">
+          <mxGeometry height="55" width="350" x="610" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_17_0" edge="1" parent="1" source="a4_1" style="endArrow=none;html=1;" target="c4_17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-18 — Gestionar cursos" vertex="1">
+          <mxGeometry height="55" width="350" x="330" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_18_0" edge="1" parent="1" source="a4_1" style="endArrow=none;html=1;" target="c4_18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-19 — Gestionar currículo" vertex="1">
+          <mxGeometry height="55" width="350" x="490" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_19_0" edge="1" parent="1" source="a4_1" style="endArrow=none;html=1;" target="c4_19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-20 — Asignar cursos al currículo" vertex="1">
+          <mxGeometry height="55" width="350" x="280" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_20_0" edge="1" parent="1" source="a4_1" style="endArrow=none;html=1;" target="c4_20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page5" name="Actualizar inscripción">
+    <mxGraphModel dx="2516" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" value="Sistema de Gestión Escolar FInanzas" vertex="1">
+          <mxGeometry height="695" width="1000" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a5_0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="55" x="-255" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="a5_1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Secretaria" vertex="1">
+          <mxGeometry height="80" width="55" x="-200" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-21 — Registrar estudiante" vertex="1">
+          <mxGeometry height="55" width="350" x="260" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_21_0" edge="1" parent="1" source="a5_0" style="endArrow=none;html=1;" target="c5_21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-22 — Consultar estudiante" vertex="1">
+          <mxGeometry height="55" width="350" x="70" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_22_0" edge="1" parent="1" source="a5_0" style="endArrow=none;html=1;" target="c5_22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_22_1" edge="1" parent="1" source="a5_1" style="endArrow=none;html=1;" target="c5_22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-23 — Modificar estudiante" vertex="1">
+          <mxGeometry height="55" width="350" x="590" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_23_0" edge="1" parent="1" source="a5_0" style="endArrow=none;html=1;" target="c5_23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_24" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-24 — Cambiar estado del estudiante" vertex="1">
+          <mxGeometry height="55" width="350" x="560" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_24_0" edge="1" parent="1" source="a5_0" style="endArrow=none;html=1;" target="c5_24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-25 — Consultar expediente del estudiante" vertex="1">
+          <mxGeometry height="55" width="350" x="460" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_25_0" edge="1" parent="1" source="a5_0" style="endArrow=none;html=1;" target="c5_25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_25_1" edge="1" parent="1" source="a5_1" style="endArrow=none;html=1;" target="c5_25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_26" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-26 — Inscribir estudiante" vertex="1">
+          <mxGeometry height="55" width="350" x="650" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_26_0" edge="1" parent="1" source="a5_1" style="endArrow=none;html=1;" target="c5_26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_27" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-27 — Consultar inscripción" vertex="1">
+          <mxGeometry height="55" width="350" x="450" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_27_0" edge="1" parent="1" source="a5_1" style="endArrow=none;html=1;" target="c5_27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_28" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-28 — Actualizar inscripción" vertex="1">
+          <mxGeometry height="55" width="350" x="530" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_28_0" edge="1" parent="1" source="a5_1" style="endArrow=none;html=1;" target="c5_28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page6" name="Consultar historial académico">
+    <mxGraphModel dx="2965" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" value="Sistema de Gestión Escolar Historial academico" vertex="1">
+          <mxGeometry height="1105" width="1060" x="20" y="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="a6_0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="55" x="-195" y="-200" as="geometry" />
+        </mxCell>
+        <mxCell id="a6_1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Maestro" vertex="1">
+          <mxGeometry height="80" width="55" x="-200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a6_2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Estudiante" vertex="1">
+          <mxGeometry height="80" width="55" x="-210" y="544.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_29" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-29 — Registrar empleado" vertex="1">
+          <mxGeometry height="55" width="350" x="70" y="-390" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_29_0" edge="1" parent="1" source="a6_0" style="endArrow=none;html=1;" target="c6_29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_30" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-30 — Modificar empleado" vertex="1">
+          <mxGeometry height="55" width="350" x="450" y="-370" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_30_0" edge="1" parent="1" source="a6_0" style="endArrow=none;html=1;" target="c6_30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_31" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-31 — Desactivar empleado" vertex="1">
+          <mxGeometry height="55" width="350" x="520" y="-210" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_31_0" edge="1" parent="1" source="a6_0" style="endArrow=none;html=1;" target="c6_31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_32" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-32 — Consultar empleados" vertex="1">
+          <mxGeometry height="55" width="350" x="500" y="-300" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_32_0" edge="1" parent="1" source="a6_0" style="endArrow=none;html=1;" target="c6_32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_33" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-33 — Asignar maestro a curso" vertex="1">
+          <mxGeometry height="55" width="350" x="530" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_33_0" edge="1" parent="1" source="a6_0" style="endArrow=none;html=1;" target="c6_33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_34" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-34 — Consultar cursos asignados" vertex="1">
+          <mxGeometry height="55" width="350" x="550" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_34_0" edge="1" parent="1" source="a6_1" style="endArrow=none;html=1;" target="c6_34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_35" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-35 — Consultar nómina de alumnos" vertex="1">
+          <mxGeometry height="55" width="350" x="660" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_35_0" edge="1" parent="1" source="a6_1" style="endArrow=none;html=1;" target="c6_35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_36" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-36 — Crear actividad académica" vertex="1">
+          <mxGeometry height="55" width="350" x="660" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_36_0" edge="1" parent="1" source="a6_1" style="endArrow=none;html=1;" target="c6_36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_37" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-37 — Definir ponderación de actividad" vertex="1">
+          <mxGeometry height="55" width="350" x="550" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_37_0" edge="1" parent="1" source="a6_1" style="endArrow=none;html=1;" target="c6_37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_38" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-38 — Registrar asistencia" vertex="1">
+          <mxGeometry height="55" width="350" x="680" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_38_0" edge="1" parent="1" source="a6_1" style="endArrow=none;html=1;" target="c6_38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_39" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-39 — Modificar asistencia" vertex="1">
+          <mxGeometry height="55" width="350" x="210" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_39_0" edge="1" parent="1" source="a6_1" style="endArrow=none;html=1;" target="c6_39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_40" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-40 — Registrar notas" vertex="1">
+          <mxGeometry height="55" width="350" x="660" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_40_0" edge="1" parent="1" source="a6_1" style="endArrow=none;html=1;" target="c6_40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_41" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-41 — Modificar notas" vertex="1">
+          <mxGeometry height="55" width="350" x="100" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_41_0" edge="1" parent="1" source="a6_1" style="endArrow=none;html=1;" target="c6_41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_42" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-42 — Consultar historial académico" vertex="1">
+          <mxGeometry height="55" width="350" x="670" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_42_0" edge="1" parent="1" source="a6_2" style="endArrow=none;html=1;" target="c6_42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page7" name="Calcular atraso y multa">
+    <mxGraphModel dx="2516" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" value="Sistema de Gestión Escolar Multas&amp;nbsp;" vertex="1">
+          <mxGeometry height="650" width="900" x="170" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="a7_0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Bibliotecario" vertex="1">
+          <mxGeometry height="80" width="55" x="-100" y="298.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a7_1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Estudiante" vertex="1">
+          <mxGeometry height="80" width="55" x="-55" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="c7_43" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-43 — Registrar libro" vertex="1">
+          <mxGeometry height="55" width="350" x="170" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e7_43_0" edge="1" parent="1" source="a7_0" style="endArrow=none;html=1;" target="c7_43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7_44" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-44 — Modificar libro" vertex="1">
+          <mxGeometry height="55" width="350" x="680" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e7_44_0" edge="1" parent="1" source="a7_0" style="endArrow=none;html=1;" target="c7_44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7_45" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-45 — Desactivar libro" vertex="1">
+          <mxGeometry height="55" width="350" x="570" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e7_45_0" edge="1" parent="1" source="a7_0" style="endArrow=none;html=1;" target="c7_45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7_46" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-46 — Consultar catálogo de libros" vertex="1">
+          <mxGeometry height="55" width="350" x="220" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="e7_46_0" edge="1" parent="1" source="a7_0" style="endArrow=none;html=1;" target="c7_46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7_46_1" edge="1" parent="1" source="a7_1" style="endArrow=none;html=1;" target="c7_46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7_47" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-47 — Registrar préstamo" vertex="1">
+          <mxGeometry height="55" width="350" x="660" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e7_47_0" edge="1" parent="1" source="a7_0" style="endArrow=none;html=1;" target="c7_47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7_48" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-48 — Registrar devolución" vertex="1">
+          <mxGeometry height="55" width="350" x="640" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="e7_48_0" edge="1" parent="1" source="a7_0" style="endArrow=none;html=1;" target="c7_48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7_49" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-49 — Calcular atraso y multa" vertex="1">
+          <mxGeometry height="55" width="350" x="460" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="e7_49_0" edge="1" parent="1" source="a7_0" style="endArrow=none;html=1;" target="c7_49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page8" name="Generar solvencia">
+    <mxGraphModel dx="1347" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" value="Sistema de Gestión Escolar PAGOS&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="650" width="900" x="170" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="a8_0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Secretaria" vertex="1">
+          <mxGeometry height="80" width="55" x="25" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="a8_1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Estudiante" vertex="1">
+          <mxGeometry height="80" width="55" x="40" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a8_2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="55" x="40" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="a8_3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Super Admin" vertex="1">
+          <mxGeometry height="80" width="55" x="50" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="c8_50" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-50 — Registrar pago" vertex="1">
+          <mxGeometry height="55" width="350" x="320" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e8_50_0" edge="1" parent="1" source="a8_0" style="endArrow=none;html=1;" target="c8_50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8_51" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-51 — Consultar pagos" vertex="1">
+          <mxGeometry height="55" width="350" x="710" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="e8_51_0" edge="1" parent="1" source="a8_0" style="endArrow=none;html=1;" target="c8_51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8_51_1" edge="1" parent="1" source="a8_2" style="endArrow=none;html=1;" target="c8_51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8_51_2" edge="1" parent="1" source="a8_3" style="endArrow=none;html=1;" target="c8_51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8_52" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-52 — Generar comprobante de pago" vertex="1">
+          <mxGeometry height="55" width="350" x="670" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e8_52_0" edge="1" parent="1" source="a8_0" style="endArrow=none;html=1;" target="c8_52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8_53" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-53 — Consultar estado de cuenta" vertex="1">
+          <mxGeometry height="55" width="350" x="210" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="e8_53_0" edge="1" parent="1" source="a8_0" style="endArrow=none;html=1;" target="c8_53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8_53_1" edge="1" parent="1" source="a8_1" style="endArrow=none;html=1;" target="c8_53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8_54" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-54 — Generar solvencia" vertex="1">
+          <mxGeometry height="55" width="350" x="670" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e8_54_0" edge="1" parent="1" source="a8_0" style="endArrow=none;html=1;" target="c8_54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page9" name="Filtrar y exportar reportes a PDF">
+    <mxGraphModel dx="2853" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" value="Sistema de Gestión Escolar Reportes&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="825" width="900" x="160" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="a9_0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="55" x="-170" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="a9_1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Super Admin" vertex="1">
+          <mxGeometry height="80" width="55" x="1270" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="a9_2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Secretaria" vertex="1">
+          <mxGeometry height="80" width="55" x="610" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="a9_3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Bibliotecario" vertex="1">
+          <mxGeometry height="80" width="55" x="25" y="497.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c9_55" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-55 — Reporte de alumnos solventes y morosos" vertex="1">
+          <mxGeometry height="55" width="350" x="430" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_55_0" edge="1" parent="1" source="a9_0" style="endArrow=none;html=1;" target="c9_55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_55_1" edge="1" parent="1" source="a9_1" style="endArrow=none;html=1;" target="c9_55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_55_2" edge="1" parent="1" source="a9_2" style="endArrow=none;html=1;" target="c9_55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9_56" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-56 — Reporte de rendimiento académico" vertex="1">
+          <mxGeometry height="55" width="350" x="435" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_56_0" edge="1" parent="1" source="a9_0" style="endArrow=none;html=1;" target="c9_56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_56_1" edge="1" parent="1" source="a9_1" style="endArrow=none;html=1;" target="c9_56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9_57" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-57 — Reporte de historial de pagos" vertex="1">
+          <mxGeometry height="55" width="350" x="460" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_57_0" edge="1" parent="1" source="a9_0" style="endArrow=none;html=1;" target="c9_57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_57_1" edge="1" parent="1" source="a9_1" style="endArrow=none;html=1;" target="c9_57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_57_2" edge="1" parent="1" source="a9_2" style="endArrow=none;html=1;" target="c9_57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="-40" />
+              <mxPoint x="820" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9_58" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-58 — Reporte de ingresos" vertex="1">
+          <mxGeometry height="55" width="350" x="430" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_58_0" edge="1" parent="1" source="a9_0" style="endArrow=none;html=1;" target="c9_58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_58_1" edge="1" parent="1" source="a9_1" style="endArrow=none;html=1;" target="c9_58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9_59" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-59 — Reporte de préstamos en mora" vertex="1">
+          <mxGeometry height="55" width="350" x="462.5" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_59_0" edge="1" parent="1" source="a9_0" style="endArrow=none;html=1;" target="c9_59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_59_1" edge="1" parent="1" source="a9_1" style="endArrow=none;html=1;" target="c9_59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_59_2" edge="1" parent="1" source="a9_3" style="endArrow=none;html=1;" target="c9_59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9_60" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CU-60 — Filtrar y exportar reportes a PDF" vertex="1">
+          <mxGeometry height="55" width="350" x="160" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="e9_60_0" edge="1" parent="1" source="a9_0" style="endArrow=none;html=1;" target="c9_60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
